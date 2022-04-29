@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Colony Coding Challenge Boostrap
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo was bootstrapped with [Create React App @ v5](https://github.com/facebook/create-react-app) but it purposely uses an older version of `react-scripts` which will install `webpack` version `4`.
+
+This is because the latest version of [CRA](https://github.com/facebook/create-react-app) comes with `webpack` version `5` which dropped support for default node polyfills, meaning you have to manually overwrite CRA's webpack config and polyfill libs like: `crypto`, `http`, `https`, `url`, etc...
+
+There are obviously more ways of going about it, but for the purpouses of [this coding challenge](https://github.com/JoinColony/coding-challenge-events-list) this approach was the quickest.
+
+So just clone this repo and get started!
+
+---
+
+_Readme below is part of CRA:_
 
 ## Available Scripts
 
