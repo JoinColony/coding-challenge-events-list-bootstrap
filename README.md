@@ -1,3 +1,11 @@
+---
+
+### Archived
+
+The [coding challenge repository](https://github.com/JoinColony/coding-challenge-events-list-submissions) has been archived and will no longer be used, hence this bootsrap is no longer useful
+
+---
+
 # Colony Coding Challenge Boostrap
 
 This repo was bootstrapped with [Create React App @ v5](https://github.com/facebook/create-react-app) but it purposely uses an older version of `react-scripts` which will install `webpack` version `4`.
